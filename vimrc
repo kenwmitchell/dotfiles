@@ -1,3 +1,7 @@
+" Pathogen.vim
+call pathogen#infect()
+call pathogen#helptags()
+
 " activates filetype detection
 filetype plugin indent on
 
