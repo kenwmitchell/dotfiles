@@ -19,7 +19,5 @@ set backspace=indent,eol,start
 
 " set tab spaces to 4
 set ts=4
+set sts=4
 set sw=4
-
-" turn off line wrapping
-set nowrap 
