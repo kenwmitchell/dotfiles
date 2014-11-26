@@ -2,9 +2,10 @@
 call pathogen#infect()
 call pathogen#helptags()
 
-" activates filetype detection
-" - not needed if setting it in here
-" filetype plugin indent on
+" allows indention based on type of file
+" allows programming files to add indention levels
+" when hitting enter after a line
+filetype plugin indent on
 
 " activates syntax highlighting among other things
 syntax on
