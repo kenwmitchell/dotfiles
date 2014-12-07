@@ -29,10 +29,11 @@ autocmd FileType html setlocal shiftwidth=2 tabstop=2
 
 set ruler
 set autoindent
+set smartindent
 set showmatch
 set nowrap
-set backupdir=~/.tmp
-set directory=~/.tmp
+"set backupdir=~/.tmp
+"set directory=~/.tmp
 set laststatus=2
 
 " Highlight the status line
