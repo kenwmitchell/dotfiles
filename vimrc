@@ -24,8 +24,6 @@ set backspace=indent,eol,start
 " set ts=2 " width of a TAB
 "set sts=2 " Number of spaces of the soft tab
 "set sw=2 " Affects >> or << and automatic indentation
-autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
-autocmd FileType html setlocal shiftwidth=2 tabstop=2
 
 set ruler
 set autoindent
