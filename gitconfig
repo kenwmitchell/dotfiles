@@ -1,3 +1,16 @@
 [user]
 	name = Ken Mitchell
 	email = contact@ken-mitchell.com
+[alias]
+  s = status
+  co = checkout
+  l = log
+  aa = add --all
+  c = commit -m
+  cam = commit -am
+
+  # list aliases
+  la = "!git config -l | grep alias | cut -c 7-"
+
+[merge]
+  ff = only
