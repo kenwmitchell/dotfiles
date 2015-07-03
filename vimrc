@@ -26,6 +26,7 @@ set backspace=indent,eol,start
 "set sw=2 " Affects >> or << and automatic indentation
 autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 
 set ruler
 set autoindent
