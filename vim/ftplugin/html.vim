@@ -1,1 +1,2 @@
-autocmd FileType html setlocal shiftwidth=2 tabstop=2
+set shiftwidth=2
+set tabstop=2
