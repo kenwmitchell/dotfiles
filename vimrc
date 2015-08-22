@@ -35,7 +35,7 @@ set nowrap
 set laststatus=2
 
 " Highlight the status line
-highlight StatusLine ctermfg=blue ctermbg=yellow
+highlight StatusLine ctermfg=yellow ctermbg=lightred
 
 let mapleader = ","
 
