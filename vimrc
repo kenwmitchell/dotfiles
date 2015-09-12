@@ -39,5 +39,5 @@ highlight StatusLine ctermfg=yellow ctermbg=lightred
 
 let mapleader = ","
 
+" Change window
 map <Leader>w <C-w>w
-
