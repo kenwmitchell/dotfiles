@@ -26,6 +26,7 @@ set backspace=indent,eol,start
 "set sw=2 " Affects >> or << and automatic indentation
 
 set ruler
+set rnu
 set autoindent
 set smartindent
 set showmatch
