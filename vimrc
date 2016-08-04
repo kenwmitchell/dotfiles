@@ -40,5 +40,15 @@ highlight StatusLine ctermfg=yellow ctermbg=lightred
 
 let mapleader = ","
 
-" Change window
+" Change windows
 nnoremap <Leader>w <C-w>w
+nnoremap <Leader>h <C-w>h
+nnoremap <Leader>j <C-w>j
+nnoremap <Leader>k <C-w>k
+nnoremap <Leader>l <C-w>l
+
+" Toggle Paste Mode
+set pastetoggle=<Leader>p
+
+" Use JJ for <esc> in insert mode
+inoremap jj <esc>
