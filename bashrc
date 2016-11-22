@@ -14,6 +14,8 @@ alias g='git'
 alias gs='git status'
 alias gc='git commit'
 alias gcw='git commit -am "WIP"'
+alias d='docker'
+alias dc='docker-compose'
 
 #Environment
 PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]#\[\e[m\] \[\e[1;37m\]'
