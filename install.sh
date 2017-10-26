@@ -1,14 +1,23 @@
 git submodule init
 git submodule update
 
-mv ~/.bashrc ~/.bashrc.bk
-mv ~/.vimrc ~/.vimrc.bk
-mv ~/.vim ~/.vim.bk
-mv ~/.gitconfig ~/.gitconfig.bk
-mv ~/.tmux.conf ~/.tmux.conf.bk
+for fl in bashrc vimrc vim gitconfig tmux.conf
+do
+	echo "Installing $fl..."
 
-ln -s ~/dotfiles/bashrc ~/.bashrc
-ln -s ~/dotfiles/vimrc ~/.vimrc
-ln -s ~/dotfiles/vim ~/.vim
-ln -s ~/dotfiles/gitconfig ~/.gitconfig
-ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+	if [ -L ~/.$fl ]
+	then
+		echo "Replacing link $fl"
+		rm ~/.$fl
+	fi
+
+	if [ -f ~/.$fl ]
+	then
+		echo "Backup up $fl to $fl.bk"
+		mv ~/.$fl ~/.$fl.bk
+	fi
+
+
+	ln -s ~/dotfiles/$fl ~/.$fl
+	echo "done"
+done
